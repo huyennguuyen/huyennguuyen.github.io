@@ -92,6 +92,10 @@ span {
     margin-left: 84px;
 }
 
+.skills {
+    height: 400px;
+}
+
 
 .nav {
     border-bottom: 1px solid rgb(38, 57, 80);
@@ -188,11 +192,13 @@ img {
 .right-side {
     border: 1px solid black;
     width: 624px;
+    height: 100vh;
 }
 
 .left-side {
     border: 1px solid black;
     width: 320px;
+    height: 100vh
 }
 
 .about-box {
@@ -211,8 +217,10 @@ img {
 
 .boxes {
     width: 166px;
-    height: 72px;
+    height: 74px;
     border: 1px solid white;
+    margin-left: 8px;
+    object-fit: cover
 }
 .carousel-button{
     background: none;
@@ -222,14 +230,60 @@ img {
 
 
 
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 74px;
+    /* background-color: yellow; */
+}
 
-
-.first {
-    display: flex;
-    justify-content: space-evenly;
+.carousel-container {
+    height: 100%;
+    position: relative;
 
 }
 
+.first, .second, .third, .fourth{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.carousel-track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carousel-slide {
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 65px;
+}
+
+.arrow-left {
+    left: 5px;
+}
+
+.arrow-right {
+    right: -10px;
+}
+
+
+/* .posts {
+   margin-top: 100px;
+} */
 
 body {
     background-color: #001935;
