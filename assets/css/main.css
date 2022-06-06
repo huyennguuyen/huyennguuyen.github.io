@@ -43,18 +43,25 @@ span {
 
 }
 
+
 .fa-angellist {
     color: rgb(0, 207, 53);
 
 }
 
-.fa-envelope {
+.fa-file {
     color: rgb(0, 184, 255);
 
 }
 
-.fa-phone {
+
+.fa-envelope {
     color: rgb(124, 92, 255);
+
+}
+
+.fa-phone {
+    color: rgb(255, 98, 206);
 }
 
 .inside-box {
