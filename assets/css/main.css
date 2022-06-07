@@ -255,7 +255,7 @@ img {
 .first, .second, .third, .fourth{
     display: flex;
     /* justify-content: space-between; */
-    height: 100px;
+    height: 72px;
     width: 500px;
     margin: 0;
     /* overflow-x: hidden; */
@@ -332,7 +332,7 @@ img {
     margin-left: 8px;
     object-fit: cover;
     position: relative;
-    display: block;
+    display: flex;
     /* justify-content: flex-start; */
     text-align: center; 
     border-radius: 4px;
@@ -349,9 +349,40 @@ img {
     background:rgb(255, 98, 206 ,0.3)
 }
 
-/* .flask {
-    justify-content: flex-start;
-} */
+.flask {
+    background:rgba(250, 243, 43, 0.489)
+}
+
+.postgresql {
+    background:rgba(250, 43, 95, 0.489)
+}
+
+.fl-img {
+    animation: slidein 2s forwards infinite
+}
+
+@keyframes slidein {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(120%);
+    }
+  }
+
+.po {
+    animation: shrink 2.5s linear infinite;
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.4);
+    }
+  }
 
 
 .java {
@@ -360,6 +391,7 @@ img {
     /* width: 155px; */
     opacity: 0.5;
 }
+
 
 .py {
     border-radius: 35px;
@@ -372,6 +404,10 @@ img {
     color: white;
     font-weight: bold;
     text-align: center;
+}
+
+.fl {
+    margin-left: 33%;
 }
 
 
