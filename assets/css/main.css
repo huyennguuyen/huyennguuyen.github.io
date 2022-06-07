@@ -8,6 +8,14 @@
     text-decoration: none;
 }
 
+.nav {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    background-color: #001935;
+    top: 0;
+}
+
 
 .a-nav{
     height: 25px;
@@ -186,7 +194,8 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 40px;
+    /* top: 70%; */
+    margin-top: 100px;
 }
 
 .right-side {
@@ -215,13 +224,6 @@ img {
 
 
 
-.boxes {
-    width: 155px;
-    height: 72px;
-    border: 1px solid white;
-    margin-left: 8px;
-    object-fit: cover
-}
 .carousel-button{
     background: none;
     border: none;
@@ -311,15 +313,45 @@ img {
     /* left: -20px; */
 }
 
+.boxes {
+    width: 155px;
+    height: 72px;
+    border: 1px solid white;
+    margin-left: 8px;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.boxesz {
+    width: 155px;
+    height: 72px;
+    border: 1px solid white;
+    margin-left: 8px;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    /* justify-content: flex-start; */
+    text-align: center; 
+    border-radius: 4px;
+}
+
 .javascript {
     /* background-image: url("https://i.postimg.cc/6QSnkD0Y/icons8-javascript.gif"); */
     /* object-fit: contain; */
     /* background-image: url("../../icons/icons8-javascript.gif"); */
     background: rgba(0, 190, 29, 0.3);
-    position: relative;
-    display: flex;
-    justify-content: center;
 }
+
+.python {
+    background:rgb(255, 98, 206 ,0.3)
+}
+
+/* .flask {
+    justify-content: flex-start;
+} */
 
 
 .java {
@@ -329,13 +361,19 @@ img {
     opacity: 0.5;
 }
 
+.py {
+    border-radius: 35px;
+}
+
 
 .label {
     position: absolute;
     opacity: 1;
     color: white;
     font-weight: bold;
+    text-align: center;
 }
+
 
 /* #about {
     background-image: url("../../icons/icons8-javascript.gif");
