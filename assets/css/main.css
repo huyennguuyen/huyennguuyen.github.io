@@ -338,6 +338,13 @@ img {
     border-radius: 4px;
 }
 
+.extra {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
 
 .javascript {
     /* background-image: url("https://i.postimg.cc/6QSnkD0Y/icons8-javascript.gif"); */
@@ -362,9 +369,22 @@ img {
     background:rgba(215, 195, 200, 0.489)
 }
 
+.express {
+    background:rgba(23, 231, 193, 0.489)
+}
+
+.html {
+    background:rgba(1, 177, 1, 0.5)
+}
+
+.docker {
+    background:rgb(118, 68, 164, 0.7)
+}
+
 .fl-img {
     animation: slidein 2s forwards infinite
 }
+
 
 
 
@@ -391,6 +411,70 @@ img {
     }
   }
 
+.ex {
+    animation: wiggle 2s linear infinite;
+}
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+
+  .do {
+      animation: float 3s ease-in-out infinite;
+  }
+
+
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-10px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
+.ht-img {
+      height: 40px;
+      width: 40px;
+      opacity: 0.5;
+      animation: look-around 3.5s infinite;
+  }
+
+  
+  @keyframes look-around {
+    0% { transform: translate(0) }
+    5% { transform: translate(50%, -25%) }
+    10% { transform: translate(50%, -25%) }
+    15% { transform: translate(-50%, -25%) }
+    20% { transform: translate(-50%, -25%) }
+    25% { transform: translate(0, 0) }
+    100% { transform: translate(0, 0) }
+  }
+
 
 .java {
     height: 72px;
@@ -401,7 +485,7 @@ img {
 
 
 .py {
-    border-radius: 35px;
+    border-radius: 80px;
 }
 
 
@@ -415,6 +499,10 @@ img {
 
 .fl {
     margin-left: 33%;
+}
+
+.ht {
+    margin-bottom: 30px;
 }
 
 .sql {
