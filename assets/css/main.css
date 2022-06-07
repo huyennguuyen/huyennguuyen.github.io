@@ -316,19 +316,20 @@ img {
 .boxes {
     width: 155px;
     height: 72px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin-left: 8px;
     object-fit: cover;
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 4px;
 }
 
 .boxesz {
     width: 155px;
     height: 72px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin-left: 8px;
     object-fit: cover;
     position: relative;
@@ -336,6 +337,11 @@ img {
     /* justify-content: flex-start; */
     text-align: center; 
     border-radius: 4px;
+}
+
+.extra-cs {
+    text-align: center;
+    justify-content: flex-end;
 }
 
 .extra {
@@ -381,8 +387,43 @@ img {
     background:rgb(118, 68, 164, 0.7)
 }
 
+.css {
+    background:rgba(205, 162, 89, 0.7)
+}
+
+.react {
+    background:rgba(205, 89, 172, 0.7)
+}
+
+.heroku {
+    background:rgba(132, 162, 226, 0.6)
+}
+
+.redux {
+    background:rgba(226, 152, 132, 0.8)
+}
+
+
+
+.cs-img {
+    margin-top: 5%;
+    animation: slideback 2s backwards infinite;
+    opacity: 0.6;
+}
+
+@keyframes slideback {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(-130%);
+    }
+  }
+
 .fl-img {
-    animation: slidein 2s forwards infinite
+    animation: slidein 2s forwards infinite;
+    margin-top: 5%;
 }
 
 
@@ -442,6 +483,8 @@ img {
 
   .do {
       animation: float 3s ease-in-out infinite;
+      opacity: 0.5;
+      margin: 5%;
   }
 
 
@@ -475,9 +518,22 @@ img {
     100% { transform: translate(0, 0) }
   }
 
+.re {
+    animation: grow 2.5s linear infinite;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0.4);
+    }
+    to {
+        transform: scale(1);
+    }
+  }
+
 
 .java {
-    height: 72px;
+    height: 60px;
     /* background: rgba(76, 175, 80, 0.3); */
     /* width: 155px; */
     opacity: 0.5;
@@ -486,6 +542,27 @@ img {
 
 .py {
     border-radius: 80px;
+    height: 60px;
+    opacity: 0.5;
+}
+
+.he {
+    height: 35px;
+    opacity: 0.5;
+    margin-bottom: 30px;
+    animation: to-bottom 3s linear infinite;
+}
+
+@keyframes to-bottom {
+    to {
+        transform: translateY(90%);
+    }
+
+    from {
+        transform: translateY(0);
+    }
+
+
 }
 
 
@@ -505,11 +582,25 @@ img {
     margin-bottom: 30px;
 }
 
+.cs {
+    margin-right: 40%
+}
+
+.react-img {
+    border-radius: 55px;
+}
+
+.up {
+    margin-top: 5px;
+}
+
+
 .sql {
    height: 78px;
    width: 78x;
-   margin-top: 20px;
+   margin-top: 35px;
    animation: to-top 2s linear infinite;
+   opacity: 0.8;
 }
 
 @keyframes to-top {
