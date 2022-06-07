@@ -216,8 +216,8 @@ img {
 
 
 .boxes {
-    width: 166px;
-    height: 74px;
+    width: 155px;
+    height: 72px;
     border: 1px solid white;
     margin-left: 8px;
     object-fit: cover
@@ -232,7 +232,7 @@ img {
 
 .carousel {
     position: relative;
-    width: 700px;
+    width: 82%;
     margin: 0 auto;
     height: 80px;
     clip-path: inset( -100vw -100vw -100vw 0 );
@@ -243,8 +243,8 @@ img {
     height: 100%;
     position: relative;
     /* right: 0; */
-    margin-left: 10px;
-    width: 600px;
+    margin-left: 20px;
+    width: 550px;
     overflow-x: hidden;
     /* direction: rtl; */
 
@@ -254,7 +254,7 @@ img {
     display: flex;
     /* justify-content: space-between; */
     height: 100px;
-    width: 600px;
+    width: 500px;
     margin: 0;
     /* overflow-x: hidden; */
     /* margin-left: 10px; */
@@ -266,7 +266,7 @@ img {
     list-style: none;
     position: relative;
     height: 100%;
-    width: 560px;
+    width: 500px;
     transition: transform 250ms ease-in;
     /* margin-left: 10px; */
 }
@@ -275,7 +275,7 @@ img {
     position: absolute;
     top: 0; 
     bottom: 0;
-    width: 560px;
+    width: 500px;
     /* height: 80px; */
     /* display: flex;
     justify-content: space-evenly; */
@@ -283,12 +283,11 @@ img {
 
 .carousel-button {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     cursor: pointer;
     height: 65px;
     opacity: 0.05;
-    margin: 0;
 }
 
 .carousel-button:hover {
@@ -300,11 +299,11 @@ img {
 }
 
 .arrow-left {
-    left: 30px;
+    left: -10px;
 }
 
 .arrow-right {
-    right: -6px;
+    right: -40px;
     /* left: -20px; */
 }
 
