@@ -338,6 +338,7 @@ img {
     border-radius: 4px;
 }
 
+
 .javascript {
     /* background-image: url("https://i.postimg.cc/6QSnkD0Y/icons8-javascript.gif"); */
     /* object-fit: contain; */
@@ -357,9 +358,15 @@ img {
     background:rgba(250, 43, 95, 0.489)
 }
 
+.sqlalchemy {
+    background:rgba(215, 195, 200, 0.489)
+}
+
 .fl-img {
     animation: slidein 2s forwards infinite
 }
+
+
 
 @keyframes slidein {
     from {
@@ -367,7 +374,7 @@ img {
     }
   
     to {
-      transform: translateX(120%);
+      transform: translateX(130%);
     }
   }
 
@@ -408,6 +415,25 @@ img {
 
 .fl {
     margin-left: 33%;
+}
+
+.sql {
+   height: 78px;
+   width: 78x;
+   margin-top: 20px;
+   animation: to-top 2s linear infinite;
+}
+
+@keyframes to-top {
+    to {
+        transform: translateY(-50%);
+    }
+
+    from {
+        transform: translateY(0%);
+    }
+
+
 }
 
 
