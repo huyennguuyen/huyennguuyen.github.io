@@ -698,7 +698,8 @@ img {
     margin-left: 14px; 
     margin-bottom: 20px;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 14px;
 
 } 
 
@@ -717,37 +718,76 @@ img {
 .dropdown-menu {
     position: absolute;
     top: calc(100% + 0.7rem);
-    /* display: none; */
-    background-color: white;
+    background-color: #f5f5f5;
     width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     height: 320px;
     width: 280px;
-    border-radius: 2px;
+    border-radius: 2.5px;
     margin-left: -25px;
     opacity: 0;
-    visibility: hidden;
+    visibility: hidden; 
     max-height:0px;
     overflow:hidden;
-    transition:0.5s;
+    transition:0.4s;
+    /* animation: growDown 2s ease-in-out forwards;
+    transform-origin: top center; */
+    /* animation-delay: 2s; */
 
 }
+
+
+
+    /* @keyframes growDown {
+        0% {
+          transform: scaleY(0)
+        }
+        100% {
+          transform: scaleY(1)
+        }
+      } */
+
+
+
 
 
 .dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
     max-height: 320px;
-    transition-delay: 1s;
+    /* animation: growDown 2s ease-in-out forwards;
+    transform-origin: top center;
+    animation-delay: 2s; */
+    transition-delay: 0.6s;
+    /* animation-delay: 2s; */
 
+}
+
+.menu-pic {
+    height: 148px;
+    width: 280px;
+    /* margin-left: 2%;
+    margin-top: 2%; */
+    /* object-fit: contains; */
 }
 
 
 
-
 .webs-des {
-    color: black
+    color: black;
+    font-family: "Roboto";
+    width: 260px;
+    margin-left: 6%;
+    font-size: 14px;
+    margin-top: 12%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+.webs-des:hover {
+    overflow: auto;
 }
 
 body {
