@@ -97,8 +97,10 @@ span {
 
 .skills-header {
     color: white;
-    margin-top: 59px;
+    margin-top: 49px;
     margin-left: 84px;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .skills {
@@ -208,7 +210,8 @@ img {
 .left-side {
     border: 1px solid black;
     width: 320px;
-    height: 100vh
+    height: 100vh;
+    margin-left: 3%;
 }
 
 .about-box {
@@ -571,6 +574,7 @@ img {
     position: absolute;
     opacity: 1;
     color: white;
+    font-family: "Roboto";
     font-weight: bold;
     text-align: center;
 }
@@ -629,8 +633,8 @@ img {
 } */
 
 .webs {
-    width: 270px;
-    border: 1px solid white;
+    width: 320px;
+    /* border: 1px solid white; */
     /* text-align: center; */
     /* display: flex;
     align-items: center;
@@ -657,7 +661,7 @@ img {
     height: 37px;
     width: 37px;
     border-radius: 3px;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 .pe-div {
@@ -668,7 +672,7 @@ img {
     justify-content: center;
     align-items: center;
     border-radius: 3px;
-    margin-left: 5%;
+    margin-left: 3%;
 
 }
 
@@ -695,8 +699,8 @@ img {
 
  .webs-title {
     margin-top: 0;
-    margin-left: 14px; 
-    margin-bottom: 20px;
+    margin-left: 12px; 
+    margin-bottom: 16px;
     color: white;
     font-weight: 700;
     font-size: 14px;
@@ -725,12 +729,14 @@ img {
     height: 320px;
     width: 280px;
     border-radius: 2.5px;
-    margin-left: -25px;
+    margin-left: -27px;
     opacity: 0;
     visibility: hidden; 
     max-height:0px;
     overflow:hidden;
     transition:0.4s;
+    /* display: flex;
+    justify-content: center; */
     /* animation: growDown 2s ease-in-out forwards;
     transform-origin: top center; */
     /* animation-delay: 2s; */
@@ -778,9 +784,10 @@ img {
     color: black;
     font-family: "Roboto";
     width: 260px;
-    margin-left: 6%;
+    margin-left: 3.5%;
     font-size: 14px;
     margin-top: 12%;
+    height: 66px;
     /* border: 1px solid black; */
     overflow: hidden;
     /* border: 1px solid black; */
@@ -788,6 +795,13 @@ img {
 
 .webs-des:hover {
     overflow: auto;
+}
+
+.radar-header{
+    margin-top: 27%;
+    height: 32px;
+    border-bottom: 2px solid rgb(38, 57, 80);
+    width:270px;
 }
 
 body {
@@ -806,11 +820,7 @@ a {
     text-decoration: none;
 }
 
-.left-side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .random {
     /* height:400px; */
