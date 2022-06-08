@@ -249,7 +249,7 @@ img {
     height: 100%;
     position: relative;
     /* right: 0; */
-    margin-left: 20px;
+    margin-left: 18px;
     width: 550px;
     overflow-x: hidden;
     /* direction: rtl; */
@@ -729,7 +729,7 @@ img {
     height: 320px;
     width: 280px;
     border-radius: 2.5px;
-    margin-left: -27px;
+    margin-left: -28px;
     opacity: 0;
     visibility: hidden; 
     max-height:0px;
@@ -801,7 +801,15 @@ img {
     margin-top: 27%;
     height: 32px;
     border-bottom: 2px solid rgb(38, 57, 80);
-    width:270px;
+    width:320px;
+}
+.me-container {
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+
 }
 
 body {
