@@ -727,7 +727,7 @@ img {
     height: 320px;
     width: 280px;
     border-radius: 2.5px;
-    margin-left: -28px;
+    margin-left: -40px;
     opacity: 0;
     visibility: hidden; 
     max-height:0px;
@@ -825,6 +825,7 @@ img {
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
+    margin-left: 8em;
 }
 
 .me-header {
