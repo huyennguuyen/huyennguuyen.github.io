@@ -848,7 +848,17 @@ img {
     width: 624px;
     height: 800px;
     display: flex;
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    border-radius: 3px;
+}
+
+.post-contact {
+    width: 624px;
+    height: 300px;
+    display: flex;
+    /* border: 1px solid white; */
+    border-radius: 3px;
+
 }
 
 .post-about {
@@ -888,6 +898,8 @@ img {
 .port-post {
     display:flex;
     flex-direction: column;
+    overflow:hidden;
+    /* background: #9bb4cf; */
     /* height: 600px; */
     /* margin-left: 2.5em; */
     /* width: 459px; */
@@ -898,7 +910,7 @@ img {
 .port-webs {
     display:flex;
     flex-direction: row;
-    margin-left: 1em;
+    /* margin-left: 1em; */
     margin-top: 3em;
     /* margin-left: 6em; */
     /* justify-content: center; */
@@ -911,6 +923,12 @@ img {
     width: 624px;
     /* height: 800px; */
     display: flex;
+    /* border: 1px solid white; */
+    border-radius: 3px;
+}
+
+.post-contact {
+    width: 624px;
     border: 1px solid white;
 }
 
@@ -938,11 +956,21 @@ img {
 .port-text {
     width: 15em;
     /* width: 500px; */
+    /* margin-left: 1em; */
+}
+
+.text-right {
     margin-left: 1em;
+
+}
+
+.text-left {
+    margin-right: 1em;
+    margin-left: 2.9em;
 }
 
 .post-webs-title {
-    margin-top: 1em;
+    margin-top: 0.7em;
     margin-bottom: 0;
     font-family: "Roboto";
 }
@@ -952,13 +980,27 @@ img {
     font-family: "Roboto";
 }
 
-.son {
-    margin-bottom: 2.7em;
+.hub {
+    background-color: #e7b6ad;
+    /* margin-left: 1em; */
 }
 
-.right-slide {
-    margin-left: 2.7em;
+.stuff {
+    background-color: #e7adc2;
 }
+
+.bu {
+    background-color: #74acc2;
+}
+
+.son {
+    margin-bottom: 2.7em;
+    background-color: #e5bc93;
+}
+
+/* .right-slide {
+    margin-left: 2.9em;
+} */
 
 .reveal {
     position: relative;
