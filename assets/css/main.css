@@ -842,6 +842,7 @@ img {
     width: 624px;
     height: 800px;
     display: flex;
+    border: 1px solid white;
 }
 
 .post-about {
@@ -868,6 +869,44 @@ img {
     object-fit: contain;
 }
 
+.about-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.port-post {
+    display:flex;
+    flex-direction: column;
+    /* margin-left: 2.5em; */
+    /* width: 459px; */
+    border: 1px solid pink;
+
+}
+
+.port-webs {
+    display:flex;
+    flex-direction: row;
+    /* width: 459px; */
+} 
+
+/* .port-text {
+
+} */
+
+.web-post-pic {
+    height: 132px;
+    width: 219px;
+}
+
+/* .post-web-des {
+    width: 200px;
+} */
+
+.port-text {
+    width: 15em;
+}
+
 body {
     background-color: #001935;
     margin: 0;
@@ -883,6 +922,10 @@ h3 {
 a {
     text-decoration: none;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 
 
