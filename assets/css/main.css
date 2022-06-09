@@ -35,7 +35,7 @@
 } 
 
 span {
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: "Roboto";
    color: black;
 }
 
@@ -543,8 +543,9 @@ img {
 
 
 .py {
-    border-radius: 80px;
-    height: 60px;
+    /* border-radius: 80px; */
+    height: 72px;
+    width: 72px;
     opacity: 0.5;
 }
 
@@ -887,7 +888,7 @@ img {
     /* height: 600px; */
     /* margin-left: 2.5em; */
     /* width: 459px; */
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
 
 }
 
@@ -940,11 +941,64 @@ img {
 .post-webs-title {
     margin-top: 1em;
     margin-bottom: 0;
+    font-family: "Roboto";
 }
 
 .post-webs-des {
     margin-top: 0.5em;
+    font-family: "Roboto";
 }
+
+.son {
+    margin-bottom: 2.7em;
+}
+
+.right-slide {
+    margin-left: 2.7em;
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
+  
+.reveal.active {
+    opacity: 1;
+}
+
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+
+  .active.fade-left {
+    animation: fade-left 1s ease-in;
+  }
+
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+
+
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
 
 body {
     background-color: #001935;
@@ -953,7 +1007,7 @@ body {
 
 h3 {
     /* font-family: "favorit", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; */
-    font-family:  "favorit-medium.woff-", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Roboto";
     color: white;
 }
 
