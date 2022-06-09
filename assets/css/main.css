@@ -104,7 +104,7 @@ span {
 }
 
 .skills {
-    height: 400px;
+    height: 140px;
 }
 
 
@@ -702,6 +702,7 @@ img {
     color: white;
     font-weight: 700;
     font-size: 14px;
+    font-family: "Roboto";
 
 } 
 
@@ -819,6 +820,7 @@ img {
 .me-post {
     height: 350px;
     width: 300px;
+    object-fit: contain;
 }
 
 .me-des{
@@ -834,6 +836,36 @@ img {
     margin-left: 3%;
     margin-bottom: 3%;
 
+}
+
+.post-container {
+    width: 624px;
+    height: 800px;
+    display: flex;
+}
+
+.post-about {
+    width: 540px;
+    margin-left: 1.2em;
+    border-radius: 3px;
+    background: white;
+}
+
+.username {
+    margin-left: 15px;
+    margin-bottom: 0; 
+    margin-top: 15px; 
+    font-family: "Roboto"; 
+    font-size: 14px; 
+    font-weight: 500;
+    width: 20em;
+    margin-bottom: 15px;
+}
+
+.about-me-pic {
+    width: 540px;
+    height: 400px;
+    object-fit: contain;
 }
 
 body {
@@ -859,7 +891,7 @@ a {
     margin-top: 400px;
 }
 
-p {
+/* p {
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
