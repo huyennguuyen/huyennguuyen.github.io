@@ -199,6 +199,7 @@ img {
     justify-content: center;
     /* top: 70%; */
     margin-top: 100px;
+    height: 500vh
 }
 
 .right-side {
@@ -854,7 +855,7 @@ img {
 
 .post-contact {
     width: 624px;
-    height: 300px;
+    height: 700px;
     display: flex;
     /* border: 1px solid white; */
     border-radius: 3px;
