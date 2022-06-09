@@ -833,8 +833,10 @@ img {
 .me-header {
     margin-top: 3%;
     display: flex;
-    margin-left: 3%;
-    margin-bottom: 3%;
+    /* margin-left: 3%; */
+    height: 40px;
+    width: 300px;
+    border-bottom: 1px solid #d3d3d3;
 
 }
 
@@ -863,6 +865,10 @@ img {
     margin-bottom: 15px;
 }
 
+.user-border {
+    border-bottom: 1px solid #d3d3d3;
+}
+
 .about-me-pic {
     width: 540px;
     height: 400px;
@@ -878,6 +884,7 @@ img {
 .port-post {
     display:flex;
     flex-direction: column;
+    /* height: 600px; */
     /* margin-left: 2.5em; */
     /* width: 459px; */
     border: 1px solid pink;
@@ -887,8 +894,21 @@ img {
 .port-webs {
     display:flex;
     flex-direction: row;
+    margin-left: 1em;
+    margin-top: 3em;
+    /* margin-left: 6em; */
+    /* justify-content: center; */
+    /* margin-left: 1em; */
     /* width: 459px; */
+    /* width: 600px; */
 } 
+
+.post-portfolio {
+    width: 624px;
+    /* height: 800px; */
+    display: flex;
+    border: 1px solid white;
+}
 
 /* .port-text {
 
@@ -897,14 +917,33 @@ img {
 .web-post-pic {
     height: 132px;
     width: 219px;
+    margin-top: 1em;
+    /* margin-right: 5em; */
 }
 
-/* .post-web-des {
-    width: 200px;
-} */
+.post-webs-des {
+    height: 111px;
+    overflow: hidden;
+}
+
+.post-webs-des:hover {
+    overflow: auto;
+
+}
 
 .port-text {
     width: 15em;
+    /* width: 500px; */
+    margin-left: 1em;
+}
+
+.post-webs-title {
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.post-webs-des {
+    margin-top: 0.5em;
 }
 
 body {
@@ -931,7 +970,7 @@ html {
 
 .random {
     /* height:400px; */
-    margin-top: 400px;
+    margin-top: 300px;
 }
 
 /* p {
