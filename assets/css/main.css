@@ -728,7 +728,7 @@ img {
     height: 320px;
     width: 280px;
     border-radius: 2.5px;
-    margin-left: -40px;
+    margin-left: -36px;
     opacity: 0;
     visibility: hidden; 
     max-height:0px;
@@ -1143,8 +1143,8 @@ h3 {
 }
 
 a, a:hover, a:focus, a:active {
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
 }
 
 html {
