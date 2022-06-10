@@ -203,12 +203,10 @@ img {
 }
 
 .right-side {
-    border: 1px solid black;
     width: 624px;
 }
 
 .left-side {
-    border: 1px solid black;
     width: 320px;
     margin-left: 3%;
 }
@@ -860,7 +858,7 @@ img {
 
 .post-contact {
     width: 624px;
-    height: 400px;
+    height: 430px;
     display: flex;
     /* border: 1px solid white; */
     border-radius: 3px;
@@ -935,7 +933,6 @@ img {
 
 .post-contact {
     width: 624px;
-    border: 1px solid white;
 }
 
 /* .port-text {
@@ -1119,7 +1116,7 @@ body {
     margin: 0;
 }
 
-p, h4 {
+p, h4, h2 {
     font-family: "Roboto";
 }
 
@@ -1138,12 +1135,16 @@ h3 {
 }
 
 .contact-info-box {
-    border-bottom: 1px solid #d3d3d3;
     background-color: #9e78f1;
 }
 
-a {
+.contact-text {
+    height: 200px;
+}
+
+a, a:hover, a:focus, a:active {
     text-decoration: none;
+    color: inherit;
 }
 
 html {
