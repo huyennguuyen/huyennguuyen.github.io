@@ -5,7 +5,7 @@
 
 window.onload = () => {
 
-    let picture = ["./images/me-bike.jpg", "./images/mj.jpg", "./images/me-boba.jpg", "./images/me-park.jpg", "./images/me-chicken.jpg", "./images/me-comp.jpg", "./images/mj.jpg"]
+    let picture = ["./images/me-bike.jpg", "./images/mj.jpg", "./images/me-boba.jpg", "./images/me-park.jpg", "./images/me-comp.jpg", "./images/mj.jpg", "./images/me-out.jpg", "./images/mj-2.jpg"]
     random = Math.floor(Math.random() * picture.length);
     let pic = document.querySelector(".me-post").src = picture[random];
     console.log(pic)

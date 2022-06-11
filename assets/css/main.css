@@ -819,7 +819,6 @@ img {
 .me-post {
     height: 392px;
     width: 300px;
-    object-fit: contain;
 }
 
 .me-des{
