@@ -820,7 +820,6 @@ img {
 .me-post {
     height: 392px;
     width: 300px;
-    border-bottom: 1px solid #d3d3d3;
     object-fit: contain;
 }
 
@@ -850,7 +849,7 @@ img {
 
 .post-container {
     width: 624px;
-    height: 800px;
+    height: 1000px;
     display: flex;
     /* border: 1px solid white; */
     border-radius: 3px;
@@ -1116,6 +1115,8 @@ body {
     margin: 0;
 }
 
+
+
 p, h4, h2 {
     font-family: "Roboto";
 }
@@ -1142,8 +1143,16 @@ h3 {
     height: 200px;
 }
 
+.about-p {
+    margin-top: 0; 
+    font-size: 14px;
+    width: 450px;
+    color: #949494
+}
+
 .me {
     position: sticky;
+    object-fit: contain;
     top: 64px;;
 }
 
