@@ -248,6 +248,7 @@ img {
     margin-left: 18px;
     width: 550px;
     overflow-x: hidden;
+    overflow-y: hidden;
     /* direction: rtl; */
 
 }
