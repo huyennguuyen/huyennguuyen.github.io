@@ -5,10 +5,8 @@ const slides = Array.from(track.children);
 
 
 const rightButton = document.querySelector(".arrow-right");
-console.log(rightButton)
 
 const leftButton = document.querySelector(".arrow-left");
-console.log(leftButton)
 
 const slideWidth = slides[0].getBoundingClientRect().width;
 
@@ -49,15 +47,12 @@ const moveSlide = (track, current, target) => {
 const hidingArrows = (slides, leftButton, rightButton, index) => {
     
     if (index === 0) {
-        console.log("THIS IS INDEX 0 ---", index)
         leftButton.classList.add("is-hidden");
         rightButton.classList.remove("is-hidden");
     } else if (index === slides.length-1) {
-        console.log("THIS IS INDEX last ---", index)
         leftButton.classList.remove("is-hidden");
         rightButton.classList.add("is-hidden");
     } else {
-        console.log("THIS IS INDEX both ---", index)
         leftButton.classList.remove("is-hidden");
         rightButton.classList.remove("is-hidden");
     }
@@ -65,13 +60,11 @@ const hidingArrows = (slides, leftButton, rightButton, index) => {
 }
 
 leftButton.addEventListener("click", e => {
-    console.log("hi")
     const current = track.querySelector(".current-slide");
     const prev = current.previousElementSibling;
     const prevIndex = slides.findIndex(slide => slide === prev)
 
     moveSlide(track, current, prev);
-    console.log("THIS IS PREV INDEX----", prevIndex)
     hidingArrows(slides, leftButton, rightButton, prevIndex);
     // console.log("hi")
     // const current = track.querySelector(".current-slide");
@@ -82,12 +75,9 @@ leftButton.addEventListener("click", e => {
 })
 
 rightButton.addEventListener("click", e => {
-    console.log("hi")
     const current = track.querySelector(".current-slide");
     const next = current.nextElementSibling;
     const nextIndex = slides.findIndex(slide => slide === next);
-
-    console.log("THIS IS next INDEX----", nextIndex)
 
     moveSlide(track, current, next);
     hidingArrows(slides, leftButton, rightButton, nextIndex);

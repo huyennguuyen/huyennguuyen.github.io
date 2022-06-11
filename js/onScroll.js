@@ -6,8 +6,6 @@ function reveal() {
       let elementTop = reveals[i].getBoundingClientRect().top;
       let elementVisible = 150;
 
-      console.log(reveals)
-  
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
       } else {

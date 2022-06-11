@@ -197,9 +197,8 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* top: 70%; */
     margin-top: 100px;
-    height: 500vh
+    height: 380vh
 }
 
 .right-side {
