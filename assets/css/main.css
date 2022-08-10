@@ -1171,6 +1171,10 @@ html {
     margin-top: 300px;
 }
 
+.web-link {
+    display: flex;
+}
+
 /* p {
     font-family: Arial, Helvetica, sans-serif;
 } */
